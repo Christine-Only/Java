@@ -225,7 +225,6 @@ public class Test {
         accounts.remove(account);
         System.out.println("您的账户已经完成销毁，您将不可以进行登录了！");
         firstStepOperate(sc, accounts);
-
     }
 
     public static void operate(Account account, Scanner sc, ArrayList<Account> accounts) {
