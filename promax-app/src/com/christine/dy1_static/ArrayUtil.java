@@ -1,4 +1,4 @@
-package com.christine.study;
+package com.christine.dy1_static;
 
 public class ArrayUtil {
     // 私有构造器
