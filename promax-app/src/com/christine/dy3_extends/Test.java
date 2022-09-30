@@ -16,5 +16,9 @@ public class Test {
         System.out.println(s.getAge());
         s.writeInfo();
         s.queryCourse();
+
+        Student s1 = new Student("picker", 19);
+        System.out.println(s1.getAge());
+        System.out.println(s1.getName());
     }
 }

@@ -9,6 +9,7 @@ public class People {
     }
 
     public People() {
+        System.out.println("====父类无参数构造器被调用啦====");
     }
 
     public People(String name, int age) {
