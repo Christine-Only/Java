@@ -1,4 +1,4 @@
-package com.christine.study;
+package com.christine.dy1_static;
 
 public class Test {
     // 静态成员 可以被共享 内存中只有一份

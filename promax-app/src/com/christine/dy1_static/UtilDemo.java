@@ -1,4 +1,4 @@
-package com.christine.study;
+package com.christine.dy1_static;
 
 public class UtilDemo {
     public static void main(String[] args) {
