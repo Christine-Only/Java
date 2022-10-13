@@ -6,5 +6,6 @@ public class Test {
 
         p.run();
         p.compete();
+        p.eat();
     }
 }

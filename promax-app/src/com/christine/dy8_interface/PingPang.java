@@ -31,6 +31,6 @@ public class PingPang implements Sports {
 
     @Override
     public void eat() {
-
+        System.out.println(age);
     }
 }
