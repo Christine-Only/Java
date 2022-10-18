@@ -27,14 +27,18 @@ public class Equals {
         this.age = age;
     }
 
-//    @Override
-//    public boolean equals(Object o) {
-//        if (this == o) return true;
-//        Object getClass() 方法用于获取对象的运行时对象的类。
-//        if (o == null || getClass() != o.getClass()) return false;
-//        Equals equals = (Equals) o;
-//        return age == equals.age && Objects.equals(name, equals.name);
-//    }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Equals equals = (Equals) o;
+        return age == equals.age && Objects.equals(name, equals.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, age);
+    }
 
     @Override
     public String toString() {
