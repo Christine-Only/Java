@@ -10,8 +10,9 @@ public class ListDemo {
 
         lists.add("JAVA");
         lists.add(1, "HTML");
+        lists.add(2, "HTML");
 
-        System.out.println(lists);
+        System.out.println(lists); // [JAVA, HTML]
 
         System.out.println("==========for循环============");
         // for循环
